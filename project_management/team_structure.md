@@ -15,3 +15,9 @@
 
 **Project Management**
 - Team leader will rotate weekly.
+  
+**Responsibilities of the members**
+- USU Student App: Angus Cameron
+- Student Union Management System: Manuela Moscoso Del Prado Galvañ
+- USU Operation System: Amber-Lily Blackadder
+- Society Leader App: Mason Langabee
