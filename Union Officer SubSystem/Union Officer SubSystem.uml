@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_TcZ7QLP4EfCYU_YvEcc_0g" name="Union Officer SubSystem">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_TxvSELP4EfCYU_YvEcc_0g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ZozMELP4EfCYU_YvEcc_0g" name="Union Officer"/>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_wRwV8LP4EfCYU_YvEcc_0g" name="Studen Union Managment System" useCase="_1sp4YLP4EfCYU_YvEcc_0g _8yAxgLP4EfCYU_YvEcc_0g _ASAGcLP5EfCYU_YvEcc_0g _ESpRYLP5EfCYU_YvEcc_0g _TkJFgLP5EfCYU_YvEcc_0g _ZB8K8LP5EfCYU_YvEcc_0g _jfz4ALP5EfCYU_YvEcc_0g _7UQkoLP5EfCYU_YvEcc_0g _DSe_cLP6EfCYU_YvEcc_0g _KO6mELP6EfCYU_YvEcc_0g _PMPbsLP6EfCYU_YvEcc_0g _l7y80LP6EfCYU_YvEcc_0g _oi7-MLP6EfCYU_YvEcc_0g _skV-ILP6EfCYU_YvEcc_0g _wj6yELP6EfCYU_YvEcc_0g">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1sp4YLP4EfCYU_YvEcc_0g" name="FR-UO-1 Manage Memberships" subject="_wRwV8LP4EfCYU_YvEcc_0g"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_8yAxgLP4EfCYU_YvEcc_0g" name="FR-UO-3 Manage Societies" subject="_wRwV8LP4EfCYU_YvEcc_0g"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ASAGcLP5EfCYU_YvEcc_0g" name="FR-UO-5 Manage Union Events" subject="_wRwV8LP4EfCYU_YvEcc_0g"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ESpRYLP5EfCYU_YvEcc_0g" name="FR-UO-6 Manage Union Elections" subject="_wRwV8LP4EfCYU_YvEcc_0g"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_TkJFgLP5EfCYU_YvEcc_0g" name="FR-UO-1a Apply for  USU Membership" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_pM4vkLP5EfCYU_YvEcc_0g" general="_1sp4YLP4EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZB8K8LP5EfCYU_YvEcc_0g" name="FR-UO-1b Update  USU Membership Information" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_pxt68LP5EfCYU_YvEcc_0g" general="_1sp4YLP4EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jfz4ALP5EfCYU_YvEcc_0g" name="FR-UO-1c Request Termination of USU Membership" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_qMytYLP5EfCYU_YvEcc_0g" general="_1sp4YLP4EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7UQkoLP5EfCYU_YvEcc_0g" name="FR-UO-3b Approve Society Change Request" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_a7bmsLP6EfCYU_YvEcc_0g" general="_8yAxgLP4EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_DSe_cLP6EfCYU_YvEcc_0g" name="FR-UO-3a Approeve New Society application Manage Societies" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_cXWyILP6EfCYU_YvEcc_0g" general="_8yAxgLP4EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_KO6mELP6EfCYU_YvEcc_0g" name="FR-UO-3c Terminate Existing Society" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_bUmUoLP6EfCYU_YvEcc_0g" general="_8yAxgLP4EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_PMPbsLP6EfCYU_YvEcc_0g" name="FR-UO-3d Monitor Society Operations" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_bxqEELP6EfCYU_YvEcc_0g" general="_8yAxgLP4EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_l7y80LP6EfCYU_YvEcc_0g" name="FR-UO-5a Create Union Events" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_05fEILP6EfCYU_YvEcc_0g" general="_ASAGcLP5EfCYU_YvEcc_0g"/>
+      <extend xmi:type="uml:Extend" xmi:id="_A4zV0LP7EfCYU_YvEcc_0g" extendedCase="_wj6yELP6EfCYU_YvEcc_0g" extensionLocation="_A47RoLP7EfCYU_YvEcc_0g"/>
+      <include xmi:type="uml:Include" xmi:id="_6Ov4oLP6EfCYU_YvEcc_0g" addition="_skV-ILP6EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_oi7-MLP6EfCYU_YvEcc_0g" name="FR-UO-5b Update Union Events Details" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_2Err8LP6EfCYU_YvEcc_0g" general="_ASAGcLP5EfCYU_YvEcc_0g"/>
+      <extend xmi:type="uml:Extend" xmi:id="_HL5rkLP7EfCYU_YvEcc_0g" extendedCase="_wj6yELP6EfCYU_YvEcc_0g" extensionLocation="_HL65sLP7EfCYU_YvEcc_0g"/>
+      <include xmi:type="uml:Include" xmi:id="_GBE3MLP7EfCYU_YvEcc_0g" addition="_skV-ILP6EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_skV-ILP6EfCYU_YvEcc_0g" name="FR-UO-5c  Publish and Promote Union Events" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_1c2P4LP6EfCYU_YvEcc_0g" general="_ASAGcLP5EfCYU_YvEcc_0g"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_wj6yELP6EfCYU_YvEcc_0g" name="FR-UO-5d Publish and Promote Union Events" subject="_wRwV8LP4EfCYU_YvEcc_0g">
+      <generalization xmi:type="uml:Generalization" xmi:id="_0h98ALP6EfCYU_YvEcc_0g" general="_ASAGcLP5EfCYU_YvEcc_0g"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_A47RoLP7EfCYU_YvEcc_0g" name="ExtensionPoint2"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_HL65sLP7EfCYU_YvEcc_0g" name="ExtensionPoint3"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IN3JwLP5EfCYU_YvEcc_0g" memberEnd="_IOKEsbP5EfCYU_YvEcc_0g _IOKrwLP5EfCYU_YvEcc_0g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IOJdoLP5EfCYU_YvEcc_0g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IOKEsLP5EfCYU_YvEcc_0g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IOKEsbP5EfCYU_YvEcc_0g" name="fr-uo-1 manage memberships" type="_1sp4YLP4EfCYU_YvEcc_0g" association="_IN3JwLP5EfCYU_YvEcc_0g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IOKrwLP5EfCYU_YvEcc_0g" name="union officer" type="_ZozMELP4EfCYU_YvEcc_0g" association="_IN3JwLP5EfCYU_YvEcc_0g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IvpoMLP5EfCYU_YvEcc_0g" memberEnd="_Ivq2ULP5EfCYU_YvEcc_0g _Ivq2UbP5EfCYU_YvEcc_0g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IvqPQLP5EfCYU_YvEcc_0g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IvqPQbP5EfCYU_YvEcc_0g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ivq2ULP5EfCYU_YvEcc_0g" name="fr-uo-3 manage societies" type="_8yAxgLP4EfCYU_YvEcc_0g" association="_IvpoMLP5EfCYU_YvEcc_0g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ivq2UbP5EfCYU_YvEcc_0g" name="union officer" type="_ZozMELP4EfCYU_YvEcc_0g" association="_IvpoMLP5EfCYU_YvEcc_0g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JPyg0LP5EfCYU_YvEcc_0g" memberEnd="_JP8R0rP5EfCYU_YvEcc_0g _JP8R07P5EfCYU_YvEcc_0g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JP8R0LP5EfCYU_YvEcc_0g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JP8R0bP5EfCYU_YvEcc_0g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JP8R0rP5EfCYU_YvEcc_0g" name="fr-uo-5 manage union events" type="_ASAGcLP5EfCYU_YvEcc_0g" association="_JPyg0LP5EfCYU_YvEcc_0g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JP8R07P5EfCYU_YvEcc_0g" name="union officer" type="_ZozMELP4EfCYU_YvEcc_0g" association="_JPyg0LP5EfCYU_YvEcc_0g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_J3dk0LP5EfCYU_YvEcc_0g" memberEnd="_J3eL4rP5EfCYU_YvEcc_0g _J3ey8LP5EfCYU_YvEcc_0g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_J3eL4LP5EfCYU_YvEcc_0g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_J3eL4bP5EfCYU_YvEcc_0g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J3eL4rP5EfCYU_YvEcc_0g" name="fr-uo-6 manage union elections" type="_ESpRYLP5EfCYU_YvEcc_0g" association="_J3dk0LP5EfCYU_YvEcc_0g"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_J3ey8LP5EfCYU_YvEcc_0g" name="union officer" type="_ZozMELP4EfCYU_YvEcc_0g" association="_J3dk0LP5EfCYU_YvEcc_0g"/>
+  </packagedElement>
+</uml:Model>
