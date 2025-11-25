@@ -77,4 +77,90 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_J3eL4rP5EfCYU_YvEcc_0g" name="fr-uo-6 manage union elections" type="_ESpRYLP5EfCYU_YvEcc_0g" association="_J3dk0LP5EfCYU_YvEcc_0g"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_J3ey8LP5EfCYU_YvEcc_0g" name="union officer" type="_ZozMELP4EfCYU_YvEcc_0g" association="_J3dk0LP5EfCYU_YvEcc_0g"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_8tQzMLZPEfCHeJyXFEM69A" name="Managment of Societies - FR-UO-3a - Approve a New Society" node="_no4TELZSEfCHeJyXFEM69A _hFFZcLZTEfCHeJyXFEM69A _Z6XCsLZUEfCHeJyXFEM69A _urNbcLZUEfCHeJyXFEM69A _9-pwULZUEfCHeJyXFEM69A _TSPCsLZVEfCHeJyXFEM69A _5Os9cLZWEfCHeJyXFEM69A _IfhmsLZYEfCHeJyXFEM69A _duiiILZYEfCHeJyXFEM69A _o8OikLZYEfCHeJyXFEM69A _CuPvILZZEfCHeJyXFEM69A _GVzEoLZZEfCHeJyXFEM69A" group="_p-GeALZSEfCHeJyXFEM69A _D63skLZUEfCHeJyXFEM69A _jtZDALZUEfCHeJyXFEM69A _K75p4LZVEfCHeJyXFEM69A _6K6cILZYEfCHeJyXFEM69A">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8POPgLZTEfCHeJyXFEM69A" inPartition="_p-GeALZSEfCHeJyXFEM69A" target="_hFFZcLZTEfCHeJyXFEM69A" source="_no4TELZSEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d1FL0LZUEfCHeJyXFEM69A" target="_Z6XCsLZUEfCHeJyXFEM69A" source="_hFFZcLZTEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zuXMQLZUEfCHeJyXFEM69A" target="_urNbcLZUEfCHeJyXFEM69A" source="_Z6XCsLZUEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_G8a8kLZVEfCHeJyXFEM69A" inPartition="_jtZDALZUEfCHeJyXFEM69A" target="_9-pwULZUEfCHeJyXFEM69A" source="_urNbcLZUEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VntsULZVEfCHeJyXFEM69A" name="No" target="_IfhmsLZYEfCHeJyXFEM69A" source="_9-pwULZUEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_95RPILZWEfCHeJyXFEM69A" name="yes" target="_5Os9cLZWEfCHeJyXFEM69A" source="_9-pwULZUEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jBKSULZYEfCHeJyXFEM69A" target="_duiiILZYEfCHeJyXFEM69A" source="_IfhmsLZYEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ps3VULZYEfCHeJyXFEM69A" inPartition="_K75p4LZVEfCHeJyXFEM69A" target="_o8OikLZYEfCHeJyXFEM69A" source="_duiiILZYEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1W2QMLZYEfCHeJyXFEM69A" target="_TSPCsLZVEfCHeJyXFEM69A" source="_5Os9cLZWEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_H8tYELZZEfCHeJyXFEM69A" target="_CuPvILZZEfCHeJyXFEM69A" source="_TSPCsLZVEfCHeJyXFEM69A"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_K4biULZZEfCHeJyXFEM69A" inPartition="_6K6cILZYEfCHeJyXFEM69A" target="_GVzEoLZZEfCHeJyXFEM69A" source="_CuPvILZZEfCHeJyXFEM69A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_p-GeALZSEfCHeJyXFEM69A" name="Applicant (Society Leader) " node="_no4TELZSEfCHeJyXFEM69A _hFFZcLZTEfCHeJyXFEM69A" edge="_8POPgLZTEfCHeJyXFEM69A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_D63skLZUEfCHeJyXFEM69A" name="Student Union System" node="_Z6XCsLZUEfCHeJyXFEM69A _5Os9cLZWEfCHeJyXFEM69A _IfhmsLZYEfCHeJyXFEM69A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_jtZDALZUEfCHeJyXFEM69A" name="Union Officer" node="_urNbcLZUEfCHeJyXFEM69A _9-pwULZUEfCHeJyXFEM69A" edge="_G8a8kLZVEfCHeJyXFEM69A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_K75p4LZVEfCHeJyXFEM69A" name="Notifications Service" node="_TSPCsLZVEfCHeJyXFEM69A _duiiILZYEfCHeJyXFEM69A _o8OikLZYEfCHeJyXFEM69A" edge="_ps3VULZYEfCHeJyXFEM69A"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_6K6cILZYEfCHeJyXFEM69A" name="Union Portal" node="_CuPvILZZEfCHeJyXFEM69A _GVzEoLZZEfCHeJyXFEM69A" edge="_K4biULZZEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_no4TELZSEfCHeJyXFEM69A" name="" outgoing="_8POPgLZTEfCHeJyXFEM69A" inPartition="_p-GeALZSEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_hFFZcLZTEfCHeJyXFEM69A" name="Submit New Society Application" incoming="_8POPgLZTEfCHeJyXFEM69A" outgoing="_d1FL0LZUEfCHeJyXFEM69A" inPartition="_p-GeALZSEfCHeJyXFEM69A">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_o-dJcLZTEfCHeJyXFEM69A" annotatedElement="_hFFZcLZTEfCHeJyXFEM69A">
+        <body>Name of society,Theme, Orgnisation Tema, Contact Address&#xD;
+</body>
+      </ownedComment>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Z6XCsLZUEfCHeJyXFEM69A" name="Register application" incoming="_d1FL0LZUEfCHeJyXFEM69A" outgoing="_zuXMQLZUEfCHeJyXFEM69A" inPartition="_D63skLZUEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_urNbcLZUEfCHeJyXFEM69A" name="Review Aplication" incoming="_zuXMQLZUEfCHeJyXFEM69A" outgoing="_G8a8kLZVEfCHeJyXFEM69A" inPartition="_jtZDALZUEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_9-pwULZUEfCHeJyXFEM69A" name="Approve Aplication?" incoming="_G8a8kLZVEfCHeJyXFEM69A" outgoing="_VntsULZVEfCHeJyXFEM69A _95RPILZWEfCHeJyXFEM69A" inPartition="_jtZDALZUEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TSPCsLZVEfCHeJyXFEM69A" name="Notify applicant of approval" incoming="_1W2QMLZYEfCHeJyXFEM69A" outgoing="_H8tYELZZEfCHeJyXFEM69A" inPartition="_K75p4LZVEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5Os9cLZWEfCHeJyXFEM69A" name="Create New Society Record" incoming="_95RPILZWEfCHeJyXFEM69A" outgoing="_1W2QMLZYEfCHeJyXFEM69A" inPartition="_D63skLZUEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_IfhmsLZYEfCHeJyXFEM69A" name="Record Rejection" incoming="_VntsULZVEfCHeJyXFEM69A" outgoing="_jBKSULZYEfCHeJyXFEM69A" inPartition="_D63skLZUEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_duiiILZYEfCHeJyXFEM69A" name="Notify applicant of rejection" incoming="_jBKSULZYEfCHeJyXFEM69A" outgoing="_ps3VULZYEfCHeJyXFEM69A" inPartition="_K75p4LZVEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_o8OikLZYEfCHeJyXFEM69A" name="" incoming="_ps3VULZYEfCHeJyXFEM69A" inPartition="_K75p4LZVEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_CuPvILZZEfCHeJyXFEM69A" name="Publish new society on portal" incoming="_H8tYELZZEfCHeJyXFEM69A" outgoing="_K4biULZZEfCHeJyXFEM69A" inPartition="_6K6cILZYEfCHeJyXFEM69A"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_GVzEoLZZEfCHeJyXFEM69A" name="" incoming="_K4biULZZEfCHeJyXFEM69A" inPartition="_6K6cILZYEfCHeJyXFEM69A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_BQqQcLZREfCHeJyXFEM69A" name="Activity9" isAbstract="true" isReentrant="false" node="_iDKdMLZREfCHeJyXFEM69A">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_X501sLZREfCHeJyXFEM69A" name="Activity9" isAbstract="true" isReentrant="false"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_iDKdMLZREfCHeJyXFEM69A" name="InitialNode2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_y7DJIMlREfCKxMUBYMFgeQ" name="Student Union Managemnt System">
+    <packagedElement xmi:type="uml:Component" xmi:id="_4IrroMlREfCKxMUBYMFgeQ" name="USU Membership Management">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_0qie4MlTEfCKxMUBYMFgeQ" client="_4IrroMlREfCKxMUBYMFgeQ" supplier="_WhvUwMlSEfCKxMUBYMFgeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_7AeYIMlREfCKxMUBYMFgeQ" name="Society Management">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_-0ejUMlTEfCKxMUBYMFgeQ" client="_7AeYIMlREfCKxMUBYMFgeQ" supplier="_wH1lMMlSEfCKxMUBYMFgeQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_M6TxYMlbEfCKxMUBYMFgeQ" client="_7AeYIMlREfCKxMUBYMFgeQ" supplier="_HjtH0MlVEfCKxMUBYMFgeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_NvZ8cMlSEfCKxMUBYMFgeQ" name="Union Event Management">
+      <packagedElement xmi:type="uml:Usage" xmi:id="__Zy24MlTEfCKxMUBYMFgeQ" client="_NvZ8cMlSEfCKxMUBYMFgeQ" supplier="_-JzrIMlSEfCKxMUBYMFgeQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_Nw8ecMlbEfCKxMUBYMFgeQ" client="_NvZ8cMlSEfCKxMUBYMFgeQ" supplier="_HjtH0MlVEfCKxMUBYMFgeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_P9rx4MlSEfCKxMUBYMFgeQ" name="Union Admin">
+      <packagedElement xmi:type="uml:Usage" xmi:id="_AHuT4MlUEfCKxMUBYMFgeQ" client="_P9rx4MlSEfCKxMUBYMFgeQ" supplier="_3djOgMlSEfCKxMUBYMFgeQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_UN1pYMlbEfCKxMUBYMFgeQ" client="_y7DJIMlREfCKxMUBYMFgeQ" supplier="_80Xa0MlVEfCKxMUBYMFgeQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_wH1lMMlSEfCKxMUBYMFgeQ" name="ISocietyMgmt"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_3djOgMlSEfCKxMUBYMFgeQ" name="IUnionAdmin"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_-JzrIMlSEfCKxMUBYMFgeQ" name="IUnionEventMgmt"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_E4e3sMlVEfCKxMUBYMFgeQ" name="AuhenticationService">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_u7kpkMlWEfCKxMUBYMFgeQ" client="_E4e3sMlVEfCKxMUBYMFgeQ" supplier="_gmEjoMlWEfCKxMUBYMFgeQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_HjtH0MlVEfCKxMUBYMFgeQ" name="NotificationService">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_vn-ckMlWEfCKxMUBYMFgeQ" client="_HjtH0MlVEfCKxMUBYMFgeQ" supplier="_iyc7oMlWEfCKxMUBYMFgeQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_80Xa0MlVEfCKxMUBYMFgeQ" name="DataStorageService">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_wLmHAMlWEfCKxMUBYMFgeQ" client="_80Xa0MlVEfCKxMUBYMFgeQ" supplier="_mMbvMMlWEfCKxMUBYMFgeQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_C0ETcMlWEfCKxMUBYMFgeQ" name="SocietyLeaderApp">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_B__OUMlaEfCKxMUBYMFgeQ" client="_C0ETcMlWEfCKxMUBYMFgeQ" supplier="_wH1lMMlSEfCKxMUBYMFgeQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_EVd38MlaEfCKxMUBYMFgeQ" client="_C0ETcMlWEfCKxMUBYMFgeQ" supplier="_-JzrIMlSEfCKxMUBYMFgeQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_E4aw0MlWEfCKxMUBYMFgeQ" name="USUOperationSystem">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_NnKFwMlaEfCKxMUBYMFgeQ" client="_E4aw0MlWEfCKxMUBYMFgeQ" supplier="_WhvUwMlSEfCKxMUBYMFgeQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_OpJuQMlaEfCKxMUBYMFgeQ" client="_E4aw0MlWEfCKxMUBYMFgeQ" supplier="_wH1lMMlSEfCKxMUBYMFgeQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_PwJykMlaEfCKxMUBYMFgeQ" client="_E4aw0MlWEfCKxMUBYMFgeQ" supplier="_3djOgMlSEfCKxMUBYMFgeQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_TknfgMlWEfCKxMUBYMFgeQ" name="StudentApp">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_7IUL4MlZEfCKxMUBYMFgeQ" client="_TknfgMlWEfCKxMUBYMFgeQ" supplier="_WhvUwMlSEfCKxMUBYMFgeQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_-xt7gMlZEfCKxMUBYMFgeQ" client="_TknfgMlWEfCKxMUBYMFgeQ" supplier="_-JzrIMlSEfCKxMUBYMFgeQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_gmEjoMlWEfCKxMUBYMFgeQ" name="IAuthentication"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_iyc7oMlWEfCKxMUBYMFgeQ" name="INotification"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_mMbvMMlWEfCKxMUBYMFgeQ" name="IDataStorage"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_WhvUwMlSEfCKxMUBYMFgeQ" name="IMemberipMgmt"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_EDrH4MlbEfCKxMUBYMFgeQ" client="_gmEjoMlWEfCKxMUBYMFgeQ" supplier="_4IrroMlREfCKxMUBYMFgeQ"/>
 </uml:Model>
